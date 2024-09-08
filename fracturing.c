@@ -1,7 +1,8 @@
-/* assignment1_John_Mosquea.c-lm
- * John Mosquea
+
+ /* John Mosquea
  * 9.8.24
  * Assignment 1
+ *assignment1_John_Mosquea.c-lm
  * Introduction to Programming in C
  * Professor Juan 
  * It includes functions to compute distance, perimeter, area, width, and height of the circle.
