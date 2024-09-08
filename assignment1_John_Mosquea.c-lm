@@ -1,12 +1,9 @@
 /*
- * Date: September 8, 2024
- * Author: John Mosquea
- * Assignment: Assignment 1
- * Course: Introduction to Programming in C
- * Professor: Juan
- *
- * Description:
- * This program calculates various properties of a circle based on user input for coordinates. 
+ * John Mosquea
+ * 9.8.24
+ * Assignment 1
+ * Introduction to Programming in C
+ * Professor Juan 
  * It includes functions to compute distance, perimeter, area, width, and height of the circle.
  */
 
@@ -15,7 +12,7 @@
 
 #define PI 3.14159
 
-// Function prototypes
+//models of the function
 int main(void);
 double getInput(void);
 double calculateDistance(void);
@@ -33,7 +30,6 @@ int main(void) {
     calculateHeight();
     return 0;
 }
-
 // Function to get user input
 double getInput(void) {
     double value;
@@ -41,8 +37,7 @@ double getInput(void) {
     scanf("%lf", &value);
     return value;
 }
-
-// Function to calculate distance between two points
+// calculate distance between two points
 double calculateDistance(void) {
     double x1, y1, x2, y2;
     printf("Enter coordinates for Point #1:\n");
@@ -62,25 +57,22 @@ double calculateDistance(void) {
     printf("The distance between the two points is %.2f\n", distance);
     return distance;
 }
-
-// Function to calculate perimeter of the circle
+//  calculate perimeter of the circle
 double calculatePerimeter(void) {
     double diameter = calculateDistance();
     double perimeter = PI * diameter;
     printf("The perimeter of the circle is %.2f\n", perimeter);
-    return 3.0; // Difficulty rating
+    return 3.0; 
 }
-
 // Function to calculate area of the circle
 double calculateArea(void) {
     double diameter = calculateDistance();
     double radius = diameter / 2;
     double area = PI * radius * radius;
     printf("The area of the circle is %.2f\n", area);
-    return 2.0; // Difficulty rating
+    return 2.0; 
 }
-
-// Function to calculate width of the circle
+// find width of the circle
 double calculateWidth(void) {
     double x1, x2;
     printf("Enter the x-coordinates for Point #1 and Point #2:\n");
@@ -90,9 +82,8 @@ double calculateWidth(void) {
     x2 = getInput();
     double width = fabs(x2 - x1);
     printf("The width of the circle is %.2f\n", width);
-    return 1.0; // Difficulty rating
+    return 1.0; 
 }
-
 // Function to calculate height of the circle
 double calculateHeight(void) {
     double y1, y2;
@@ -103,5 +94,5 @@ double calculateHeight(void) {
     y2 = getInput();
     double height = fabs(y2 - y1);
     printf("The height of the circle is %.2f\n", height);
-    return 1.0; // Difficulty rating
+    return 1.0; 
 }
