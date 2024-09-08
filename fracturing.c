@@ -5,7 +5,7 @@
  *assignment1_John_Mosquea.c-lm
  * Introduction to Programming in C
  * Professor Juan 
- * It includes functions to compute distance, perimeter, area, width, and height of the circle.
+ * It includes functions to compute user inputs along w/ distance, perimeter, area, width, and height of the circle.
  */
 
 #include <stdio.h>
