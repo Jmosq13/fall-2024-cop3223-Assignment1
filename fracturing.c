@@ -1,8 +1,7 @@
-
+//assignment1_John_Mosquea.c-lm
  // John Mosquea
  // 9.8.24
  // Assignment 1
- //assignment1_John_Mosquea.c-lm
  // Introduction to Programming in C
  // Professor Juan 
  // It includes functions to compute user inputs along w/ distance, perimeter, area, width, and height of the circle.
